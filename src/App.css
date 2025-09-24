@@ -20,6 +20,7 @@ body {
   background: var(--bg-light);
   color: var(--text);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -495,25 +496,137 @@ main {
 }
 
 @media (max-width: 960px) {
+  .topbar {
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    justify-content: center;
+  }
+
   .topbar ul {
-    display: none;
+    width: 100%;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .cta {
+    order: 3;
   }
 
   .hero {
-    padding-top: 72px;
+    padding-top: 84px;
+  }
+
+  .project-card header {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
 @media (max-width: 620px) {
   .topbar {
     padding: 16px 20px;
+    justify-content: space-between;
+  }
+
+  .topbar ul {
+    display: none;
+  }
+
+  .topbar .cta {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  main {
+    width: min(560px, 90vw);
   }
 
   .hero__panel {
     padding: 28px;
   }
 
+  .section {
+    padding: 72px 0;
+  }
+
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+
   .project-card {
     padding: 26px;
+  }
+
+  .project-card__meta {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card__tags {
+    gap: 8px;
+  }
+
+  .section--projects {
+    padding: 72px 24px;
+  }
+
+  .contact {
+    padding: 48px 28px;
+  }
+
+  .contact__buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .timeline {
+    padding-left: 18px;
+  }
+
+  .timeline::before {
+    left: 4px;
+  }
+
+  .timeline__item {
+    padding-left: 18px;
+  }
+
+  .timeline__item::before {
+    left: -6px;
+  }
+}
+
+@media (max-width: 460px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__badge {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+
+  .project-card__link {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .skills__card {
+    padding: 22px;
+  }
+
+  .focus-card {
+    padding: 24px;
+  }
+
+  .section__intro h2,
+  .section__title h2,
+  .contact__content h2 {
+    font-size: clamp(1.8rem, 6vw, 2.1rem);
   }
 }
