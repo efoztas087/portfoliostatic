@@ -37,7 +37,7 @@ const skills = [
   },
   {
     category: 'Backend',
-    items: ['Node.js', 'Express', 'REST API ontwerp', 'PHP', 'MySQL', 'Docker'],
+    items: ['Node.js','PHP', 'MySQL', 'Docker'],
   },
   {
     category: 'Mobile',
@@ -68,7 +68,7 @@ const projects = [
       'Groeiend platform dat lessen plant, instructeurs koppelt en administratie automatiseert voor rijscholen.',
     role: 'Full-stack developer solo project',
     result: 'Eerste klant bespaart wekelijks tijd op planning en opvolging.',
-    tech: ['Node.js', 'firebase', 'swift (iOS)', 'React Native (Android)'],
+    tech: ['firebase', 'swift (iOS)', 'React Native (Android)'],
     link: 'https://github.com/efoztas087/Rijscholenapp',
     linkLabel: 'In ontwikkeling',
   },
@@ -103,7 +103,7 @@ const education = [
 const highlights = [
   {
     label: 'Praktijkervaring',
-    detail: 'Website gebouwd voor lokaal café',
+    detail: 'Website gebouwd voor lokaal café' 'Mobiele app gebouwd voor rijscholen',
   },
   {
     label: 'Leerdoelen',
@@ -111,7 +111,7 @@ const highlights = [
   },
   {
     label: 'Interesses',
-    detail: 'Slimme campusoplossingen, automatisering en ideeën die de maatschappij helpen',
+    detail: 'Slimme oplossingen, automatisering en ideeën die de maatschappij helpen',
   },
 ];
 
@@ -255,7 +255,7 @@ function App() {
           <div className="section__title">
             <span>Projecten</span>
             <h2>Werk waar ik trots op ben</h2>
-            <p className="section__subtitle">Impactvolle cases die laten zien hoe ik werk.</p>
+            <p className="section__subtitle">Hier kan je mijn projecten zien en kijken naar hoe ik te werk ben gegaan.</p>
           </div>
           <div className="projects-grid">
             {projects.map((project) => (
@@ -294,9 +294,6 @@ function App() {
             <div className="contact__buttons">
               <a className="button" href="mailto:#">
                 Stuur een e-mail
-              </a>
-              <a className="button button--ghost" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
-                LinkedIn
               </a>
               <a className="button button--ghost" href="https://github.com/efoztas087" target="_blank" rel="noreferrer">
                 GitHub
