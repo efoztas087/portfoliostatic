@@ -66,7 +66,7 @@ const projects = [
     tagline: 'Planningstool voor rijscholen',
     description:
       'Groeiend platform dat lessen plant, instructeurs koppelt en administratie automatiseert voor rijscholen.',
-    role: 'Full-stack developer''solo project',
+    role: 'Full-stack develope solo project',
     result: 'Eerste klant bespaart wekelijks tijd op planning en opvolging.',
     tech: ['Node.js', 'firebase', 'swift (iOS)', 'React Native (Android)'],
     link: 'https://github.com/efoztas087/Rijscholenapp',
