@@ -286,7 +286,7 @@ function App() {
         <section id="contact" className="section contact">
           <div className="contact__content">
             <span>Contact</span>
-            <h2>Klaar om samen te werken?</h2>
+            <h2>Klaar voor stage!</h2>
             <p>
               ik zou heel graag stage willen lopen bij een bedrijf waar ik mijn kennis kan uitbreiden en ervaring kan opdoen in de
               praktijk.
