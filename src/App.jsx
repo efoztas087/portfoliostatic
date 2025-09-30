@@ -103,7 +103,7 @@ const education = [
 const highlights = [
   {
     label: 'Praktijkervaring',
-    detail: detail: 'Website gebouwd voor lokaal café, Mobiele app gebouwd voor rijscholen',
+    detail: 'Website gebouwd voor lokaal café, Mobiele app gebouwd voor rijscholen',
   },
   {
     label: 'Leerdoelen',
