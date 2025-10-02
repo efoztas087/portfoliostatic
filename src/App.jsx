@@ -161,7 +161,7 @@ function App() {
             ))}
           </ul>
         </nav>
-        <a className="cta" href="mailto:efe.softwaredev@gmail.com">
+        <a className="cta" href="mailto:efeoztas97@gmail.com">
           Contact
         </a>
       </header>
