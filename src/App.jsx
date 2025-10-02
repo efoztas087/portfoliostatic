@@ -292,7 +292,7 @@ function App() {
               praktijk.
             </p>
             <div className="contact__buttons">
-              <a className="button" href="mailto:#">
+              <a className="button" href="mailto:efeoztas97@gmail.com">
                 Stuur een e-mail
               </a>
               <a className="button button--ghost" href="https://github.com/efoztas087" target="_blank" rel="noreferrer">
