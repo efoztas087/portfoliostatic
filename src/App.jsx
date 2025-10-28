@@ -33,7 +33,7 @@ const focusAreas = [
 const skills = [
   {
     category: 'Frontend',
-    items: ['React', 'Vite', 'TypeScript', 'HTML', 'CSS', 'Tailwind'],
+    items: ['React', 'Vite', 'TypeScript', 'HTML', 'CSS', 'javascript'],
   },
   {
     category: 'Backend',
@@ -41,7 +41,7 @@ const skills = [
   },
   {
     category: 'Mobile',
-    items: ['Swift (iOS)', 'React Native (Android)'],
+    items: ['Swift (iOS)',],
   },
   {
     category: 'Tools & Workflow',
@@ -70,7 +70,7 @@ const projects = [
     result: 'Eerste klant bespaart wekelijks tijd op planning en opvolging.',
     tech: ['firebase', 'swift (iOS)', 'React Native (Android)'],
     link: 'https://github.com/efoztas087/Rijscholenapp',
-    linkLabel: 'In ontwikkeling',
+    linkLabel: 'Project Bekijken',
   },
   {
     title: 'Bo-opdracht',
