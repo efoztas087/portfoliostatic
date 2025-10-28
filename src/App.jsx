@@ -69,7 +69,7 @@ const projects = [
     role: 'Full-stack developer solo project',
     result: 'Eerste klant bespaart wekelijks tijd op planning en opvolging.',
     tech: ['firebase', 'swift (iOS)', 'React Native (Android)'],
-    link: 'https://github.com/efoztas087/Rijscholenapp',
+    link: 'https://github.com/efoztas087/Rijschool-App',
     linkLabel: 'Project Bekijken',
   },
   {
