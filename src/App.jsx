@@ -33,7 +33,7 @@ const focusAreas = [
 const skills = [
   {
     category: 'Frontend',
-    items: ['React', 'Vite', 'TypeScript', 'HTML', 'CSS', 'javascript'],
+    items: ['React', 'Vite', 'TypeScript', 'HTML', 'CSS + SCSS', 'javascript'],
   },
   {
     category: 'Backend',
