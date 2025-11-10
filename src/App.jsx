@@ -26,7 +26,7 @@ const focusAreas = [
   },
   {
     title: 'Slimme tooling',
-    description: 'Ik automatiseer processen en zet CI/CD neer voor snelle releases.',
+    description: 'Ik gebruik tools zoals Git, Vite en Trello om overzicht te houden, snel te testen en projecten gestructureerd op te bouwen.',
   },
 ];
 
